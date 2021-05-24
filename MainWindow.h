@@ -22,4 +22,5 @@ class MainWindow : public QWidget {
   void onButtonClicked();
  public:
   MainWindow(QWidget *parent = nullptr);
+  ~MainWindow();
 };

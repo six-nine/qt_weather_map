@@ -41,4 +41,13 @@ MainWindow::MainWindow(QWidget *parent) {
   loadingArea = loading;
   loadingArea->setParent(this);
   loadingArea->setVisible(false);
+}
+MainWindow::~MainWindow() {
+  delete area;
+  delete paintArea;
+  delete loadingArea;
+  delete btn;
+  delete parser;
+  delete loading;
+  delete modeLabel;
 };
