@@ -1,0 +1,4 @@
+/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/CMakeFiles/Weather.dir
+/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/CMakeFiles/Weather_autogen.dir

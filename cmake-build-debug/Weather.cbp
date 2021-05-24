@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Weather"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\cellar\;CMake Files\..\..\..\..\usr\local\cellar\qt\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\;CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\;CMake Files\..\..\..\..\usr\local\Cellar\;CMake Files\..\..\..\..\usr\local\Cellar\qt\;CMake Files\..\..\..\..\usr\local\Cellar\qt\6.0.3_2\;CMake Files\..\..\..\..\usr\local\Cellar\qt\6.0.3_2\lib\;CMake Files\..\..\..\..\usr\local\Cellar\qt\6.0.3_2\lib\cmake\;CMake Files\..\..\..\..\usr\local\Cellar\qt\6.0.3_2\lib\cmake\Qt6\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Weather">
+				<Option output="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Weather" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Weather_autogen/include"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtCore.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/include"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtGui.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtGui.framework/Headers"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtNetwork.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtNetwork.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 Weather"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Weather/fast">
+				<Option output="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Weather" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Weather_autogen/include"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtCore.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/include"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtGui.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtGui.framework/Headers"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtNetwork.framework"/>
+					<Add directory="/usr/local/cellar/qt/6.0.3_2/lib/QtNetwork.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 Weather/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Weather_autogen">
+				<Option working_dir="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 Weather_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/LoadingWidget.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/LoadingWidget.h">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/MainWindow.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/MainWindow.h">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/MapParser.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/MapParser.h">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/PointProcessor.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/PointProcessor.h">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/RenderArea.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/RenderArea.h">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/cmake-build-debug/Weather_autogen/mocs_compilation.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/main.cpp">
+			<Option target="Weather"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6/Qt6Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6/Qt6ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6/Qt6Dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6/Qt6Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6/Qt6VersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6/QtFeature.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Gui/Qt6GuiTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Network/Qt6NetworkTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/cellar/qt/6.0.3_2/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\cellar\qt\6.0.3_2\lib\cmake\Qt6Network\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/Cellar/qt/6.0.3_2/lib/cmake/Qt6/FindWrapAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/Cellar/qt/6.0.3_2/lib/cmake/Qt6/FindWrapOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/vadimkozlov/CProjects/Weather/../../../../usr/local/Cellar/qt/6.0.3_2/lib/cmake/Qt6/QtFeatureCommon.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\6.0.3_2\lib\cmake\Qt6\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
