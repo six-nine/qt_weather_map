@@ -1,7 +1,6 @@
 #include <QPainter>
 #include <QEventLoop>
 #include <iomanip>
-#include <cmath>
 #include "RenderArea.h"
 
 RenderArea::RenderArea(QVector<QPolygon> &polygons, Mode mode, QWidget *parent) {
@@ -25,6 +24,27 @@ void RenderArea::paintEvent(QPaintEvent *event) {
   painter.setPen(Qt::black);
   foreach (QPoint point, debugPoints){
     painter.drawRect(point.x(), point.y(), 3, 3);
+  }
+  int x = 20, y = 20;
+  int w = 40, h = 30;
+  if (mode == TEMPERATURE){
+    for (auto key: temperatureColors.keys()){
+      painter.setPen(QPen(temperatureColors[key]));
+      painter.setBrush(QBrush(temperatureColors[key]));
+      painter.drawRect(x, y, w, h);
+      painter.setPen(Qt::white);
+      painter.drawText(x + 5, y + h - 5, QString::number(key));
+      y += h;
+    }
+  } else {
+    for (auto key: pressureColors.keys()){
+      painter.setPen(QPen(pressureColors[key]));
+      painter.setBrush(QBrush(pressureColors[key]));
+      painter.drawRect(x, y, w, h);
+      painter.setPen(Qt::white);
+      painter.drawText(x + 5, y + h - 5, QString::number(key));
+      y += h;
+    }
   }
 }
 
