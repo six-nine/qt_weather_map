@@ -165,5 +165,5 @@ void RenderArea::debugPoint(QPoint point) {
 }
 void RenderArea::changeMode() {
   mode == TEMPERATURE ? mode = PRESSURE : mode = TEMPERATURE;
-
+  update();
 }
